@@ -2,7 +2,7 @@
 All data and code used for my master's thesis:
 "What drives neural alignment with word embeddings? A residual analysis of EEG-based semantic decoding"
 
-#Data and models used
+# Data and models used
 
 EEG data - Kiloword dataset (Dufau et al., 2015): grand-averaged ERPs for 960 English nouns, available through MNE-Python via mne.datasets.kiloword. 
 https://mne.tools/stable/generated/mne.datasets.kiloword.data_path.html
@@ -16,11 +16,11 @@ NRC Valence, Arousal, and Dominance Lexicon v2.1 (Mohammad, 2025): valence, arou
 
 
 
-#Context sentences
+# Context sentences
 Context sentences for the GPT-2 embeddings were collected with a four-stage pipeline: (1) WikiText-2, (2) the Wikipedia API, (3) Gemini 2.5 Flash, and (4) Llama-3.3-70B via the Groq API. Only sentences containing at least four words of left context before the target word were retained.
 
 
-Author
+# Author
 Valeria Bolgert, Goethe University Frankfurt
 
 
